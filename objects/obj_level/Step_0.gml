@@ -1,9 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-alarm[0] = room_speed
 
-pontos = 0
-proximo_level = 100
+//Garantindo que a imagem da sprite é a mesma do level
+image_index = global.level - 1
 
-global.level = 1
